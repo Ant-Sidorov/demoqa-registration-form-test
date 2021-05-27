@@ -27,10 +27,7 @@ public class Student_Registration_Form {
         $(".react-datepicker__month-select").selectOption(3);
         $(".react-datepicker__year-select").selectOption("1991");
         $("[aria-label=\"Choose Monday, April 8th, 1991\"]").click();
-
-
         $("#subjectsInput").setValue("Commerce").pressEnter();
-
         $("[for=hobbies-checkbox-1]").click();
         File file = $("#uploadPicture").uploadFile(new File("src/test/resources/test_upload.jpg"));
 
