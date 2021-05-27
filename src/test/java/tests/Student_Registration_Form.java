@@ -17,7 +17,6 @@ public class Student_Registration_Form {
     @Test
     void successfulSubmitForm() {
         open("https://demoqa.com/automation-practice-form");
-
         $("#firstName").setValue("Anton");
         $("#lastName").setValue("Sidorov");
         $("#userEmail").setValue("ant@mail.com");
