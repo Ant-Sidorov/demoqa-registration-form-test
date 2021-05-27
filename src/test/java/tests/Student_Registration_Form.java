@@ -31,7 +31,6 @@ public class Student_Registration_Form {
         $("[for=hobbies-checkbox-1]").click();
         File file = $("#uploadPicture").uploadFile(new File("src/test/resources/test_upload.jpg"));
         $("#currentAddress").setValue("Sport street");
-
         $("#react-select-3-input").setValue("NCR").pressEnter();
         $("#react-select-4-input").setValue("Gurgaon").pressEnter();
 
