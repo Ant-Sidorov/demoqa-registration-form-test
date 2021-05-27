@@ -32,7 +32,6 @@ public class Student_Registration_Form {
         $("#currentAddress").setValue("Sport street");
         $("#react-select-3-input").setValue("NCR").pressEnter();
         $("#react-select-4-input").setValue("Gurgaon").pressEnter();
-
         $("#submit").click();
 
 
